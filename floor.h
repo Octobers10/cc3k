@@ -5,12 +5,12 @@
 #include <utility>
 #include <memory>
 #include <string>
-#include "player.h"
-#include "enemy.h"
+#include "./players/player.h"
+#include "./enemies/enemy.h"
 #include "direction.h"
-#include "potion.h"
-#include "gold.h"
-#include "barriersuit.h"
+#include "./items/potion.h"
+#include "./items/gold.h"
+#include "./items/barriersuit.h"
 
 using namespace std;
 

@@ -3,10 +3,10 @@
 #include <iomanip>
 #include <cmath>
 #include "game.h"
-#include "human.h"
-#include "dwarf.h"
-#include "elves.h"
-#include "orc.h"
+#include "./players/human.h"
+#include "./players/dwarf.h"
+#include "./players/elves.h"
+#include "./players/orc.h"
 
 using namespace std;
 

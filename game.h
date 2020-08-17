@@ -5,7 +5,7 @@
 #include <memory>
 #include <string>
 #include "floor.h"
-#include "player.h"
+#include "./players/player.h"
 #include "direction.h"
 
 class Game {

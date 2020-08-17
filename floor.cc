@@ -5,15 +5,15 @@
 #include <cstdlib>
 #include <ctime>
 
-#include "enemy.h"
+#include "./enemies/enemy.h"
 #include "floor.h"
-#include "vampire.h"
-#include "werewolf.h"
-#include "troll.h"
-#include "goblin.h"
-#include "merchant.h"
-#include "dragon.h"
-#include "phoenix.h"
+#include "./enemies/vampire.h"
+#include "./enemies/werewolf.h"
+#include "./enemies/troll.h"
+#include "./enemies/goblin.h"
+#include "./enemies/merchant.h"
+#include "./enemies/dragon.h"
+#include "./enemies/phoenix.h"
 
 using namespace std;
 
