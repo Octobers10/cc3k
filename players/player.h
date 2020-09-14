@@ -1,7 +1,7 @@
 #ifndef _PLAYER_H_
 #define _PLAYER_H_
 
-#include "character.h"
+#include "../character.h"
 #include "../items/gold.h"
 #include "../items/potion.h"
 #include <memory>
