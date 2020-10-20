@@ -1,10 +1,10 @@
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -MMD -Werror=vla -DSC
 EXEC = cc3k+
-MAINOBJS = character.o floor.o game.o main.o
-ENEMYOBJS = enemy/dragon.o enemy/goblin.o enemy/merchant.o enemy/phoenix.o enemy/troll.o enemy/vampire.o enemy/werewolf.o
-ITEMOBJS = item/barriersuit.o item/gold.o item/item.o item/potion.o
-PLAYEROBJS = player/dwarf.o player/elves.o player/human.o player/orc.o player/player.o 
+MAINOBJS = main.o character.o floor.o game.o
+ENEMYOBJS = enemies/dragon.o enemies/goblin.o enemies/merchant.o enemies/phoenix.o enemies/troll.o enemies/vampire.o enemies/werewolf.o
+ITEMOBJS = items/barriersuit.o items/gold.o items/item.o items/potion.o
+PLAYEROBJS = players/dwarf.o players/elves.o players/human.o players/orc.o players/player.o 
 OBJECTS = ${MAINOBJS} ${ENEMYOBJS} ${ITEMOBJS} ${PLAYEROBJS}
 DEPENDS = ${OBJECTS:.o=.d}
 
